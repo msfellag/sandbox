@@ -1,0 +1,30 @@
+### To clean-up log :
+(venv) mpz2600@okijon:flask_solution$ pip3 install Flask Flask-RESTful
+Collecting Flask
+  Using cached Flask-2.2.2-py3-none-any.whl (101 kB)
+Collecting Flask-RESTful
+  Using cached Flask_RESTful-0.3.9-py2.py3-none-any.whl (25 kB)
+Collecting itsdangerous>=2.0
+  Using cached itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Collecting click>=8.0
+  Downloading click-8.1.3-py3-none-any.whl (96 kB)
+     |████████████████████████████████| 96 kB 227 kB/s 
+Collecting Werkzeug>=2.2.2
+  Using cached Werkzeug-2.2.2-py3-none-any.whl (232 kB)
+Collecting Jinja2>=3.0
+  Using cached Jinja2-3.1.2-py3-none-any.whl (133 kB)
+Collecting importlib-metadata>=3.6.0
+  Downloading importlib_metadata-4.12.0-py3-none-any.whl (21 kB)
+Collecting zipp>=0.5
+  Downloading zipp-3.8.1-py3-none-any.whl (5.6 kB)
+Collecting MarkupSafe>=2.0
+  Using cached MarkupSafe-2.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting six>=1.3.0
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting pytz
+  Downloading pytz-2022.2.1-py2.py3-none-any.whl (500 kB)
+     |████████████████████████████████| 500 kB 41 kB/s 
+Collecting aniso8601>=0.82
+  Using cached aniso8601-9.0.1-py2.py3-none-any.whl (52 kB)
+Installing collected packages: zipp, MarkupSafe, Werkzeug, Jinja2, itsdangerous, importlib-metadata, click, six, pytz, Flask, aniso8601, Flask-RESTful
+Successfully installed Flask-2.2.2 Flask-RESTful-0.3.9 Jinja2-3.1.2 MarkupSafe-2.1.1 Werkzeug-2.2.2 aniso8601-9.0.1 click-8.1.3 importlib-metadata-4.12.0 itsdangerous-2.1.2 pytz-2022.2.1 six-1.16.0 zipp-3.8.1
