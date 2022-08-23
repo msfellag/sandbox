@@ -15,7 +15,7 @@ class getApplicationPerUser(Resource):
         try:
             int(userId)
         except:
-            return "Error : Wrong type for userID", 406
+            return "400 Bad Request : Wrong type for userID", 400
         return applications_per_user(userId)
 
 class getApplicationPerJob(Resource):
@@ -24,7 +24,7 @@ class getApplicationPerJob(Resource):
         try:
             int(jobId)
         except:
-            return "Error : Wrong type for jobId", 406
+            return "400 Bad Request : Wrong type for jobId", 400
 
         return users_per_application(jobId)     
 
